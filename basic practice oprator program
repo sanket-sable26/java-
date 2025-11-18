@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("welcome to simple calculator ");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("please enter number 1 :");
+        int num1=sc.nextInt();
+        System.out.println("please enter a number 2");
+        int num2=sc.nextInt();
+        System.out.println("number 1 is :"+ num1+" number 2 is: "+ num2);
+        int result ;
+        result=num1+num2;
+        System.out.println("addition of number " + num1+" and number "+ num2 +" is: "+result  );
+        result=num1-num2;
+        System.out.println("subtraction of number " + num1+" and number "+ num2 +" is: "+result  );
+        result=num1*num2;
+        System.out.println("multipliction of number " + num1+" and number "+ num2 +" is: "+result  );
+        result=num1/num2;
+        System.out.println("Divison of number " + num1+" and number "+ num2 + " is:  " +result  );
+        
+        
+        
+    }
+}
