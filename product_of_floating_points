@@ -1,0 +1,15 @@
+import java.util.Scanner; 
+//create a program to get product of two floating points number .
+class Main {
+    public static void main(String[] args) {
+        System.out.println("welcome to floting point number product");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter a number 1 ");
+        float num1 = sc.nextFloat();
+        System.out.println("enter number 2 ");
+        float num2=sc.nextFloat();
+        float result =num1*num2;
+        System.out.println("product of two numbers: "+ result);
+        
+    }
+}
