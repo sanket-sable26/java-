@@ -1,0 +1,14 @@
+import java.util.*;
+public class Arraystring{
+    public static void main ( String[] args){
+        String[] name =new String[3];
+        name[0]="sanket";
+        name[1]="lasun";
+        name[2]="jonathan";
+        String[] nickname={ "chusun","babalu","jonny","mango"};
+        System.out.println(nickname.length);
+        
+        
+        
+    }
+}
