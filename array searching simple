@@ -1,0 +1,27 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner ;
+class Main {
+    public static void main(String[] args) {
+        System.out.println(" array Searching ");
+    int[] rollnum={ 53,34,54,23,67,89,34,12,17,26,42,79,74,10,93,};
+    Scanner sc= new Scanner(System.in);
+    boolean found=false ;
+    System.out.println("enter a number to search in array :");
+    int num=sc.nextInt();
+     for (int i=0;i<rollnum.length;i++){
+         if (num==rollnum[i]){
+            System.out.println("the number is found"+rollnum[i]);
+             found = true ;
+             break;
+         }
+        
+
+     }
+      if(found==false){
+             System.out.println("the number is not found");
+         }
+     }
+      
+              
+    }
