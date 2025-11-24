@@ -1,0 +1,19 @@
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println(" array reperenstation ");
+       int[] stocks= new int[3];
+        stocks[0]=83;
+        stocks[1]=72;
+        stocks[2]=23;
+        for (int j=0;j<stocks.length;j++){
+             System.out.println(stocks[j]);
+        }
+           
+           int[] rollnum={ 5,4,5,8,6,4,4,89};
+           for(int i=0;i<rollnum.length;i++){
+               System.out.print(rollnum[i] +" ");
+           }
+              
+    }
+}
