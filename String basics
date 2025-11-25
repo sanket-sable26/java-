@@ -1,0 +1,28 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+// number of occurunce of an array element
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     
+    String s1= "bablu"; // simple string
+     System.out.println(s1);
+     
+     String sanket =new String("mango");//simple  object string
+     System.out.println(sanket);
+     
+     char[] c1={ 's','a','n','k','e','t'}; //character array
+     System.out.println(c1);
+     
+     String c2=new String(c1,0,3);// range print 
+     System.out.println(c2);
+     
+     String s2=String.valueOf(c1);// all characters from string
+     System.out.println(s2);
+     
+     
+    }
+}
+
+
