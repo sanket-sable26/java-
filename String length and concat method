@@ -1,0 +1,27 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+// number of occurunce of an array element
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     
+    // getting String length 
+     String S1 =" hii sanket baby ";
+     System.out.println(S1.length()); // 17 it counted space also 
+     System.out.println("sanket".length()); //6
+     //concatenating strings 
+      String s1="hii ";
+      String s2= s1+"sanket";
+      System.out.println(s2);
+      String s3= s2.concat(" i am Allmight.");
+      System.out.println(s3);
+       
+     
+     
+     
+     
+    }
+}
+
+
